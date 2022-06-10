@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+
+
+/*Search Bar Styling*/
+.for-search{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 60px;
+    transition: 0.5s;
+    overflow: hidden;
+    background-color: white;
+    /* color: black !important; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.for-icons{
+    position: absolute;
+    top: 0 ;
+    left: 50;
+    width: 50px ;
+    height: 50px;
+    color: black ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.for-search .input{
+   
+    width: 300px;
+    position: relative;
+    left: 50px;
+    height: 50px;
+    right: 50px;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.for-search .input input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: transparent;
+}
+.cut{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: max-content;
+    height: max-content;
+    cursor: pointer;
+    color: black;
+}
+.for-search.active{
+    width: 350px;
+}
+
+/*Search bar ended*/
+
+.main{
+
+    height: 500px !important; 
+    margin-bottom: 100px;
+
+}
+.cover-img-content{
+    margin-top: 120px;
+}
+.header-sec-parent{
+
+    background-color: #262626;
+}
+.nav-custom{
+    position: sticky !important; 
+    top: 0 !important;
+    background-color: white;
+    z-index: 1 !important;
+
+}
+.nav-custom ul 
+{
+
+
+    border-bottom: 2px dashed black;
+
+
+}
+.nav-custom nav ul li a{
+    font-weight: bold;
+    color: black !important;
+}
+.nav-custom nav ul li {
+    
+    margin: 0 25px !important;
+    transition: 0.5;
+    padding: 2px; border-radius: 8px;
+}
+.nav-custom nav ul li:hover a{
+     border-radius: 8px;
+    color: white !important; 
+
+    
+}
+
+.nav-custom nav ul li:hover {
+    background-color: #262626;
+
+   
+}
+#my-drop-down div a{
+    color: black !important;
+}
+#my-drop-down a:hover{
+    background-color: #262626 !important; 
+    color: white !important;
+       
+}
+.brands-cards .card{
+
+    height: 25rem !important;
+
+}
+.card section h1{
+
+    font-size: 45px;
+}
+.carousel-custom div{
+    height: 550px;
+}
+.carousel-heading div{
+    position: relative;
+}
+
+.carousel-heading div img{
+    position: absolute;
+    /* height: 100% !important; */
+}
+.carousel-heading div h1  {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 55px;
+}
+
+.myCards section div{
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.logos .card{
+
+    height: 16rem !important;
+    padding: 25px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+/* .myCards .card-body{
+
+} */
+.card-on-hover{
+
+    position: relative;
+    height: 250px;
+
+
+}
+.overlay{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    transition: 0.7s ease-in-out;
+    display: none;
+ }
+ .row section {
+     text-align: center;
+ }
+.card-on-hover:hover .overlay{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(0, 0,0,0.75);
+   flex-direction: column;
+}
+
+
+/*BUTTON*/
+
+button{
+    border: 1px solid   black !important;
+    outline: none !important;
+transition: 0.5;
+    letter-spacing: 0.1em;
+    position: relative;
+    font-size: 1.5em;
+    color: white !important;
+    /* background-color: #444 !important ; */
+    background-color:  #343a40 !important;
+    
+}
+button:hover{
+
+    letter-spacing: 0.25em;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+button i::before{
+    content: '';
+ position: absolute;
+ width: 10px;
+ height: 5px;
+ background-color: white;
+ border: 2px solid #fff;
+ top: -3.7px;
+ left: 80%;
+ transition: 0.5s;
+ background-color: #27282c;
+    
+}
+button:hover i::before{
+    width: 20px;
+left: 20%;
+}
+button i::after{
+    content: '';
+ position: absolute;
+ width: 10px;
+ height: 5px;
+ background-color: #27282c;
+ border: 2px solid #fff;
+ bottom: -3.7px;
+ left: 20%;
+ transform: translateX(-50%);
+ transition: 0.5s;
+    
+}
+
+button:hover i::after{
+    position: absolute;
+    width: 20px;
+    background-color: #444;
+left: 80%;
+}
+
+main div{
+    text-align: center;
+}
+footer{
+    /* background-color: #27282c; */
+    color: white ;
+    width: 100%;
+    
+}
+.social-icons{
+    text-align: center;
+    color: black;
+}
+
+.social-icons ul li a{
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+font-size: 25px;
+    margin: 0 10px;
+   line-height: 50px;
+position: relative;
+    color: gray;
+    transition: 0.3s;
+    
+}
+.social-icons ul li a:hover{
+     box-shadow: 0 0 15px #27282c;
+     transform: scale(1.1);
+     
+ }
+.footersec4-darkbg{
+
+    background-color: #262626;
+}
+footer section ul li {
+    list-style-type: none;
+
+}
+footer p{
+    color: white;
+    font-weight: bold;
+    font-size: medium !important;
+}
+.last-links-div
+{
+
+    width:160px;
+    height: 200px;
+    transition: 0.5;
+}
+.footer-sec-two{
+    border-bottom: 2px solid white;
+
+}
+.footer-sec-two div ul li a{
+    color: white;
+    font-size: small !important;
+    transition: 0.5s;
+
+}
+.footer-sec-two ul li a:hover {
+
+    letter-spacing: 0.25em;
+    color: gray;
+}
+
+.footer-bottom-div{
+    color: white;
+    text-align: center;
+}
+button a:hover{
+    text-decoration: none;
+}
+/*BRANDS STYLING*/
+
+del{
+    text-decoration: line-through red ;
+    color: red;
+}
+
+/* .Cards-in-brands  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    
+} */
+/* .Cards-in-brands section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+.brand-img-change-hover div{
+
+    width: 18rem;
+    height: 32rem;
+    margin: 0 auto;
+}
+.brand-img-change-hover div section button{
+
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin:  15px 10px;
+    border: none !important;
+}
+.greenColor{
+background-color: #788977 !important;
+} 
+.goldColor{
+background-color: #e7d2b5 !important;
+}
+.blueColor{
+    background-color: 
+    #97b1c9 !important;
+
+}  
+.silverColor{
+
+    background-color: #eff0e9!important;
+}
+.graphiteColor{
+background-color: #484643!important;}
+.brandfile-bg-img{
+    height: 600px;
+    background-image: url(../img/iphone/hero_endframe__small_2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 15px 0;
+}
+/************** IPHONE PAGE STYLING *****************/
+.iphonepg-bg-img{
+    height: 650px;
+    background-image: url(../img/iphone/water_resistant__ddhg6jxs53yq_small.jpg);
+    background-position: center center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+
+/************************ CARDS DESIGNING (INFINIX) ***************************/
+.mobile-cards section div{
+    height: 24rem;
+    width: 18rem;
+    border: 1px solid lightgray;
+
+}
+.mobile-cards section div:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+
+
+}
+/********************* INFINIX PAGE STYLING ******************************/
+.infinix-bg-img{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/infinix/zero5g.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center center;
+}
+/*********************** VIVO BG IMG************************/
+.vivopg-bg-img{
+
+ 
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/vivo/vivologobw.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center center;   
+}
+/**********************  OPPO BG IMG *************************/
+.oppo-bg-img{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/oppologo.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center center;
+
+}
+/*Contact Page Designing*/
+h1{
+    font-family: 'Tai Heritage Pro', serif;
+
+}
+h2 , h5{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.contact-form-parent{
+    width: 50%;
+}
+.contact-form{
+
+    width: 100%;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+}
+.contact-form>div {
+
+    height: 50px;
+    border-bottom: 2px solid gray;
+    padding: 15px ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: gray;
+    /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+}
+.contact-form>div input{
+    
+    border: none;
+    width: 85%;
+    margin-left: 5px;
+color: gray;
+    background-color: transparent;
+    outline: none;  
+}
+.contact-form h1{
+    font-family: 'Tai Heritage Pro', serif;
+    color: black;
+    border-bottom: 2px solid gray;
+}
+.textarea-div{
+
+    border-bottom: none !important;
+    min-height: 65px;
+}
+.textarea-div textarea{
+    width: 100%;
+    min-height: 70px;
+}
+.contact-form button{
+margin: 0 35%;
+
+    }
+
+    /*Modal Styling*/
+.myModal{
+    min-width: 70%;
+}
+.modal-content>ul li{
+    text-align: center;
+}
+@media only screen and (max-width:850px){
+    .header-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:555px){
+
+    .main div h1{
+        font-size: 35px;
+    }
+    
+}
+
+
+/*Carousal Media Query*/
+@media only screen and (max-width:930px)
+{
+
+    .carousel-heading div h1{
+        
+        font-size: 40px;
+    }
+    .carousel-heading div {
+        
+        height: 450px;
+    }
+    .carousel-heading div img{
+
+        height: inherit
+    }
+}
+@media only screen and (max-width:570px)
+{
+
+    .carousel-heading div h1{
+        
+        font-size: 40px;
+        left: 35%;
+    }
+    .carousel-custom div{
+        
+        height: 350px;
+
+    }
+    
+}
+@media only screen and (max-width:450px)
+{
+
+
+    
+    .carousel-custom div{
+        
+        height: 250px;
+
+    }
+    
+    .carousel-heading div h1{
+        
+        font-size: 30px;
+    }
+    .contact-form div{
+        width: 100%;
+        font-size: small;
+    }
+    .contact-form h1{
+        font-size: xx-large;
+    }
+}
+
+/*Search Bar Styling Ended*/
+
+/*Nav Bar Styling Started*/
+
+/*Nav Bar Styling Ended*/

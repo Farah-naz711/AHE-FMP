@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../../bootstrap-4.6.1-dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!--Font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header-sec-parent">
+
+      <!-- Parent Of LOGO and SEARCH BAR-->
+      <section class="container  d-flex justify-content-between align-items-center  header-sec px-2 pt-3">
+        <!--div For logo -->
+        <div class="logo text-white d-flex mb-sm-2 ">
+          <img src="../../img/vivo/logo2.png" width="80">
+          <div class='ml-2 px-1'>
+
+            <h1 class="m-0">AHE</h1>
+            <small>AMEER HAMZA ELECTRONICS</small>
+          </div>
+        </div>
+        <!-- Logo div ended -->
+
+        <div class="for-search">
+
+          <div class="for-icons  " onclick="toggle()"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <div class="input"><input type="text" placeholder="Search Brands Or Products" id="input-search"></div>
+          <span class="cut" onclick="Clear()"><i class="fa fa-times" aria-hidden="true"></i>
+
+          </span>
+        </div>
+        <!--Search Div Ended-->
+
+      </section>
+      <!-- Parent Of LOGO and SEARCH BAR Ended-->
+    </div>
+    <!--div for dark bg ended-->
+
+  </header>
+  <!--Header Ended-->
+
+
+  <section class="container nav-custom     ">
+
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto links">
+          <li class="nav-item active mx-auto">
+            <a class="nav-link" href="../../index.html">Home </a>
+          </li>
+          <li class="nav-item dropdown mx-auto" id="my-drop-down">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item " href="../Products/iphone.html">iPhone</a>
+              <a class="dropdown-item" href="../Products/infinix.html">Infinix Mobile</a>
+              <a class="dropdown-item" href="../Products/huawei.html">Huawei Mobile</a>
+              <a class="dropdown-item" href="../Products/honor.html">Honor Mobile</a>
+              <a class="dropdown-item" href="../Products/oppo.html">Oppo Mobile</a>
+              <a class="dropdown-item" href="../Products/vivo.html">Vivo Mobile</a>
+              <a class="dropdown-item" href="../Products/realme.html">Realme</a>
+              <a class="dropdown-item" href="../Products/samsung.html">Samsung Galaxy</a>
+            </div>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="../brands.html">Brands</a>
+          </li>
+
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="../about.html">About Us</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="../contact.html">Contact Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+
+
+
+
+
+  <section class="container my-5">
+    <h1 class="mb-5">Latest iPhones</h1>
+        <div class="row m-0 mobile-cards">
+    
+    
+           <!--1st--> 
+            <section class="col-lg-4 col-md-4 col-sm-6 my-2  d-flex justify-content-center">
+                
+                    <div class="p-4 " >
+                        
+                        <img src="../../img/iphone/finishes_1_alpine_green___small.jpg" width="50%" >
+                        <h4 class="my-3">iPhone 13</h4>
+                        <p>RS:142,000</p>
+                </div>
+    
+            </section>
+            
+           <!--2nd--> 
+            <section class="col-lg-4 col-md-4 col-sm-6 my-2  d-flex justify-content-center">
+               
+                    <div  class="p-4" >
+                        
+                        <img src="../../img/iphone/water_resistant__ddhg6jxs53yq_small.jpg" width="60%" >
+                        <h4 class="my-3">  iPhone 13Pro</h4>
+                        <p>RS:128,000</p>
+                </div>
+    
+            </section>
+    
+    
+           <!--3rd--> 
+            <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+                <div  class="p-4">
+                    
+                    <img src="../../img/iphone/compare_iphone_13_small.jpg" width="60%" >
+                    <h4 class="my-3">iPhone 13 small</h4>
+                    <p>RS:145,000</p>
+            </div>
+    
+        </section>
+    
+           <!--4th--> 
+        <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+            <div  class="p-4">
+                
+                <img src="../../img/iphone/compare_iphone_13__large.jpg" width="60%" >
+                <h4 class="my-3">iPhone 13 Large</h4>
+                <p>RS:192,000</p>
+        </div>
+    
+    </section>
+    
+           <!--5th--> 
+    <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+        <div  class="p-4">
+            
+            <img src="../../img/iphone/finishes_1_gold_small.jpg" width="50%" >
+            <h4 class="my-3">Infinix Zero X Pro</h4>
+            <p>RS:42,000</p>
+    </div>
+    
+    </section>
+    
+           <!--6th--> 
+    <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+        <div  class="p-4">
+            
+          <img src="../../img/iphone/finishes_1_silver__small.jpg" width="50%" >
+            <h4 class="my-3">Inifinix Zero X neo</h4>
+            <p>RS:48,000</p>
+    </div>
+    
+    </section>
+    
+    
+           <!--7th--> 
+    <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+        <div  class="p-4">
+            
+          <img src="../../img/iphone/finishes_1_graphite__small.jpg" width="50%" >
+            <h4 class="my-3">Inifinix Zero 5g</h4>
+            <p>RS:28,000</p>
+    </div>
+    
+    </section>
+    
+    
+           <!--8th--> 
+    <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+        <div  class="p-4">
+            
+            <img src="../../img/iphone/hero_endframe__small_2x.jpg" width="100%" >
+            <h4 class="my-3">Inifinix Smart HD</h4>
+            <p>RS:32,000</p>
+    </div>
+    
+    </section>
+    
+           <!--9th--> 
+    
+    <section class="col-lg-4 col-md-4 col-sm-6 my-2 d-flex justify-content-center">
+               
+        <div  class="p-4">
+            
+            <img src="../../img/iphone/compare_iphone_12__large.jpg" width="60%" >
+            <h4 class="my-3">iPhone 12</h4>
+            <p>RS:42,000</p>
+    </div>
+    
+    </section>
+    
+    
+           <!--10th--> 
+    
+        </div>
+    
+    </section>
+  
+
+
+
+
+
+  <!--FOOTER START-->
+  <footer class="bg-light  ">
+
+
+
+    <!--FOOTER SOCIAL ICONS SECTION-->
+    <section class="d-flex justify-content-center align-items-center flex-column p-2 social-icons">
+      <h1 class="my-5">Ameer Hamza Electronics</h1>
+
+
+      <ul class="d-flex bg-light justify-content align-items-center social-icons">
+        <li>
+          <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+        </li>
+
+        <li>
+          <a href="www.facebook.com"><i class="fab fa-facebook"></i></a>
+        </li>
+
+        <li>
+          <a href="www.instagram.com"> <i class="fab fa-instagram"></i></a>
+        </li>
+
+        <li>
+          <a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="www.youtube.com"><i class="fab fa-youtube"></i></a>
+        </li>
+
+        </div>
+    </section>
+    <!--FOOTER SOCIAL ICONS SECTION ENDED-->
+    <section class="footersec4-darkbg px-4">
+
+      <!--SECTION FOR LINKS-->
+      <section class="container py-5 d-flex justify-content-around align-items-center flex-wrap   footer-sec-two ">
+
+        <div>
+          <p>Categories</p>
+          <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../contact.html">Feedback</a></li>
+            <li><a href="../brands.html">Brands</a></li>
+            <li><a href="../brands.html">Gallery</a></li>
+
+
+          </ul>
+        </div>
+        <div class=" last-links-div ">
+          <p>Most Popular Brands</p>
+          <ul>
+            <li><a href="../brands.html">Infinix</a></li>
+            <li><a href="../brands.html">iPhone</a></li>
+            <li><a href="../brands.html">Samsung</a></li>
+            <li><a href="../brands.html">Honor Mobile</a></li>
+            <li><a href="../brands.html">Oppo Mobile</a></li>
+            <li><a href="../brands.html">Realme</a></li>
+            <li><a href="../brands.html">Huawei</a></li>
+            <li><a href="../brands.html">Vivo</a></li>
+
+
+
+
+          </ul>
+        </div>
+        <!-- <div  >
+  <p>Collection</p>
+  <ul>
+    <li><a href="./files/Products/mensCollection.html">Men's Collection</a></li>
+    <li><a href="./files/Products/./ladiesCollection.html">Ladie's Collection</a></li>
+    <li><a href="./files/Products/kidsCollection.html">Kid's Collection</a></li>
+  </ul>
+</div> -->
+      </section>
+      <div class="footer-bottom-div py-2">
+        <small>
+          &copy; Copyright 2022
+        </small>
+      </div>
+      <!---FOOTER BOTTOM DIV  ENDED-->
+    </section>
+    <!--SECTION FOR DARK BG ENDED-->
+  </footer>
+
+
+</body>
+<script src="../../bootstrap-4.6.1-dist/js/jquery.slim.min.js"></script>
+<script src="../../bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+<script src="../../bootstrap-4.6.1-dist/js/popper.min.js"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="../app.js">
+
+</script>
+
+</html>
