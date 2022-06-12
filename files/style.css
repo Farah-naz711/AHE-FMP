@@ -413,6 +413,7 @@ h1{
     height: 24rem;
     width: 18rem;
     border: 1px solid lightgray;
+    transition: 0.5s;
 
 }
 .mobile-cards section div:hover{
@@ -420,6 +421,15 @@ h1{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 
 
+}
+.mobile-cards section div img{
+
+    transition: 0.5s;
+}
+.mobile-cards section div img:hover{
+
+    transform: scale(1.2);
+    cursor: pointer;
 }
 /********************* INFINIX PAGE STYLING ******************************/
 .infinix-bg-img{
@@ -435,11 +445,12 @@ h1{
 
  
     width: 100%;
-    height: 400px;
-    background-image: url(../img/vivo/vivologobw.png);
+    height: 600px;
+    background-image: url(../img/vivo/bg-img.jpg);
     background-repeat: no-repeat;
     /* background-size: cover; */
-    background-position: center center;   
+    background-position: center center;
+    background-color: #feecbc;   
 }
 /**********************  OPPO BG IMG *************************/
 .oppo-bg-img{
@@ -451,7 +462,76 @@ h1{
     background-position: center center;
 
 }
-/*Contact Page Designing*/
+/**********************  SAMSUNG BG IMG *************************/
+.samsung-pageBG-img{
+    
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/samsung/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+/************************   REALME BG IMG  *************************/
+.realme-pageBG-img{
+
+    
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/realme/1653532553028.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+}
+/******************** ABOUT PAGE DESIGNING *******************/
+.about-pageBG-img{
+
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/iphone/why_apple__ezn1ktvka6oi_large.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pageBG-img h1{
+    
+    
+    font-size: 4rem;
+}
+.aboutusheading h3{
+
+    border-bottom: 2px solid gray;
+    margin: 15px 0;
+    padding: 10px 0;
+
+}
+
+/****************  Contact Page Designing*****************/
+.contact-pageBG-img{
+
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/iphone/why_apple_top__css5bkmogosy_small.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-pageBG-img h1{
+    
+    font-size: 4rem ;
+
+
+}
 h1{
     font-family: 'Tai Heritage Pro', serif;
 
@@ -462,7 +542,7 @@ h2 , h5{
 
 }
 .contact-form-parent{
-    width: 50%;
+    width: 60%;
 }
 .contact-form{
 
@@ -507,7 +587,8 @@ color: gray;
     min-height: 70px;
 }
 .contact-form button{
-margin: 0 35%;
+    display: block;
+margin: 10px auto;
 
     }
 
@@ -535,54 +616,8 @@ margin: 0 35%;
     
 }
 
-
-/*Carousal Media Query*/
-@media only screen and (max-width:930px)
-{
-
-    .carousel-heading div h1{
-        
-        font-size: 40px;
-    }
-    .carousel-heading div {
-        
-        height: 450px;
-    }
-    .carousel-heading div img{
-
-        height: inherit
-    }
-}
-@media only screen and (max-width:570px)
-{
-
-    .carousel-heading div h1{
-        
-        font-size: 40px;
-        left: 35%;
-    }
-    .carousel-custom div{
-        
-        height: 350px;
-
-    }
-    
-}
 @media only screen and (max-width:450px)
 {
-
-
-    
-    .carousel-custom div{
-        
-        height: 250px;
-
-    }
-    
-    .carousel-heading div h1{
-        
-        font-size: 30px;
-    }
     .contact-form div{
         width: 100%;
         font-size: small;
@@ -591,7 +626,22 @@ margin: 0 35%;
         font-size: xx-large;
     }
 }
+@media only screen and (max-width:1095px)
+{
+    .about-pageBG-img{
 
+        height: 400px;
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width:845px)
+{
+    .about-pageBG-img{
+
+        height: 300px;
+        background-size: 100%;
+    }
+}
 /*Search Bar Styling Ended*/
 
 /*Nav Bar Styling Started*/
