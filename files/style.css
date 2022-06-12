@@ -435,7 +435,8 @@ h1{
 .infinix-bg-img{
     width: 100%;
     height: 600px;
-    background-image: url(../img/infinix/zero5g.jpg);
+    /* background-image: url(../img/infinix/zero5g.jpg); */
+    background-image: url(../img/infinix/note12vip_list.png);
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center center;
@@ -444,24 +445,39 @@ h1{
 .vivopg-bg-img{
 
  
-    width: 100%;
+    /* width: 100%; */
     height: 600px;
-    background-image: url(../img/vivo/bg-img.jpg);
+    background-image: url(../img/vivo/b.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: 50%;
     background-position: center center;
-    background-color: #feecbc;   
+    background-color:#010103;   
 }
 /**********************  OPPO BG IMG *************************/
 .oppo-bg-img{
     width: 100%;
-    height: 400px;
-    background-image: url(../img/oppologo.png);
+    height: 600px;
+    background-image: url(../img/oppo/bg.jpg);
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     background-position: center center;
 
 }
+/**********************  HUAWEI BG IMG *************************/
+.huawei-pageBG-img{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/huwawei/431.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: 
+    #efefef;
+    background-position: center center;
+
+
+}
+
 /**********************  SAMSUNG BG IMG *************************/
 .samsung-pageBG-img{
     
@@ -482,6 +498,18 @@ h1{
     background-image: url(../img/realme/1653532553028.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center ;
+
+}
+/************************   HONOR BG IMG  *************************/
+.honor-pageBG-img{
+
+    
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/honor/honor-30-2.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
     background-position: center ;
 
 }
@@ -631,6 +659,9 @@ margin: 10px auto;
     .about-pageBG-img{
 
         height: 400px;
+        background-size: 100%;
+    }
+    .huawei-pageBG-img{
         background-size: 100%;
     }
 }
